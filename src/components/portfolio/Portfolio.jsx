@@ -1,54 +1,54 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Finance Visualisation',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'IMDB Clone',
+    github: 'https://github.com/rajeshkumar997/IMDB-Clone',
+    demo: 'https://imdb-clone-kappa.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency Dashboard & Finance Visualisation',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Modern Payment Website',
+    github: 'https://github.com/rajeshkumar997/HooBank-React-Project',
+    demo: 'https://hoo-bank-react-project.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency Dashboard & Finance Visualisation',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'YouTube Clone',
+    github: 'https://github.com/rajeshkumar997/Youtube_Clone',
+    demo: 'https://youtube-clone-nine-delta.vercel.app/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency Dashboard & Finance Visualisation',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Grocery Store',
+    github: 'https://github.com/rajeshkumar997/My-Projects/tree/main/Grocery%20Store%20Website',
+    demo: 'https://grocerystore24.netlify.app/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Crypto Currency Dashboard & Finance Visualisation',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'My Notes App',
+    github: 'https://github.com/rajeshkumar997/React-Notes-App',
+    demo: 'https://react-notes-app-flame.vercel.app/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Crypto Currency Dashboard & Finance Visualisation',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Parallax Website',
+    github: 'https://github.com/rajeshkumar997/My-Projects/tree/main/Parallax%20Website',
+    demo: 'https://venerable-jelly-a34910.netlify.app/'
   }
 ]
 
@@ -68,8 +68,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' target='blank'>Github</a>
+                  <a href={demo} className='btn btn-primary' target='blank'>Live Demo</a>
                 </div>
               </article>
             )
@@ -79,74 +79,5 @@ const Portfolio = () => {
     </section >
   )
 }
-{/* <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article> */}
-
-{/* <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article> */}
-{/* </div>
-    </section > */}
-// )
-// }
 
 export default Portfolio
