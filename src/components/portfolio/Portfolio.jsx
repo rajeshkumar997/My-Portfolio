@@ -32,15 +32,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-<<<<<<< HEAD
     title: 'Grocery Store',
     github: 'https://github.com/rajeshkumar997/My-Projects/tree/main/Grocery%20Store%20Website',
     demo: 'https://grocerystore24.netlify.app/'
-=======
-    title: 'Intuitive Quiz Hub',
-    github: 'https://github.com/rajeshkumar997/React-Quiz-App',
-    demo: 'https://super-dasik-20302f.netlify.app/'
->>>>>>> a81c9e0f2f027e50c37bdff89168c54f28447dec
   },
   {
     id: 5,
@@ -52,15 +46,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-<<<<<<< HEAD
     title: 'Parallax Website',
     github: 'https://github.com/rajeshkumar997/My-Projects/tree/main/Parallax%20Website',
     demo: 'https://venerable-jelly-a34910.netlify.app/'
-=======
-    title: 'Persional Portfolio',
-    github: 'https://github.com/rajeshkumar997/My-Portfolio',
-    demo: 'https://my-portfolio-one-ivory.vercel.app/'
->>>>>>> a81c9e0f2f027e50c37bdff89168c54f28447dec
   }
 ]
 
@@ -92,8 +80,4 @@ const Portfolio = () => {
   )
 }
 
-<<<<<<< HEAD
 export default Portfolio
-=======
-export default Portfolio
->>>>>>> a81c9e0f2f027e50c37bdff89168c54f28447dec

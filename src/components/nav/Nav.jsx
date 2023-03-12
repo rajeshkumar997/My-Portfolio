@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
-import {AiTwotoneBook} from 'react-icons/ai'
-import {AiFillProject} from 'react-icons/ai'
-import {RiServiceLine} from 'react-icons/ri'
-import {MdContactPage} from 'react-icons/md'
+import { AiOutlineHome } from 'react-icons/ai'
+import { AiOutlineUser } from 'react-icons/ai'
+import { AiTwotoneBook } from 'react-icons/ai'
+import { AiFillProject } from 'react-icons/ai'
+// import {RiServiceLine} from 'react-icons/ri'
+import { MdContactPage } from 'react-icons/md'
 
 
 const Nav = () => {
-  const [activeNav, setActiveNav] =  useState('#')
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
       <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
