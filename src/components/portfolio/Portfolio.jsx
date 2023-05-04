@@ -39,9 +39,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'My Notes App',
-    github: 'https://github.com/rajeshkumar997/React-Notes-App',
-    demo: 'https://react-notes-app-flame.vercel.app/'
+    title: 'Flipkart Clone',
+    github: 'https://github.com/rajeshkumar997/Flipkart-Clone',
+    demo: 'https://flipcart-clone-sable.vercel.app/'
   },
   {
     id: 6,
